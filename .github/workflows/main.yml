@@ -40,4 +40,4 @@ jobs:
       run: npm install -g surge
     
     - name: Deploy on Surge
-      run: surge ./build/ shoestore-nabia.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build/ project5-nabia.surge.sh --token ${{ secrets.SURGE_TOKEN }}
