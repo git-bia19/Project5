@@ -45,7 +45,7 @@ const About = () => {
       <Grid item sm={1} />
       <Grid item sm={6} xs={12}> 
      <br></br>
-       <img src={require( "../images/animation.gif")} width="500" height="280" className ="animation1" alt="">
+       <img src={require( "../images/animation.gif")} width="500" height="280" className ="animation1" alt="animation">
 
          
        </img>
