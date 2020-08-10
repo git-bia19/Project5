@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Main from './components/main';
-import About from './components/About';
-import Contact from './components/contact';
-import Footer from "./components/Footer"
+import {Main} from './components/main';
+import {About} from './components/About';
+import {Contact} from './components/contact';
+import {Footer} from "./components/Footer";
 
 
 function App() {
