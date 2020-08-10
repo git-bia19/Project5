@@ -4,7 +4,7 @@ import useWebAnimations, { slideInDown } from "@wellyshen/use-web-animations";
 import { Grid} from "@material-ui/core";
 import { color } from 'react-native-material-design-styles';
 
-const About = () => {
+export default function About  () {
     const { timing } = slideInDown;
     const { ref } = useWebAnimations({
       keyframes: [
@@ -55,5 +55,5 @@ const About = () => {
       )};
     
 
-    export default About;
+    
    
